@@ -28,4 +28,5 @@ class NewVisitorTest(unittest.TestCase):
 		# While she is in a specific hero's page, she sees a button labeled "Back to Heroes List".
 		# She clicks this and she is redirected back to the wiki's homepage.	
 		
+		assert 'Django' in browser.title
 		self.fail('Finish the test!')
