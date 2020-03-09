@@ -3,14 +3,14 @@ from django.views.generic.base import TemplateView
 
 # Create your views here.
 
-class HomeView(TemplateView):
+class HomePageView(TemplateView):
 	template_name = "home.html"
 	
-class CloudView(TemplateView):
+class CloudPageView(TemplateView):
 	template_name = "detail_cloud.html"
 	
-class SunfloweyView(TemplateView):
+class SunfloweyPageView(TemplateView):
 	template_name = "detail_sunflowey.html"
 
-class JesterView(TemplateView):
+class JesterPageView(TemplateView):
 	template_name = "detail_jester.html"
